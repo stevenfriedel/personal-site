@@ -39,7 +39,13 @@ a:hover {
 
 
 /*TOP CONTAINER*/
+
 #bio {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+.bio {
   background-color: #343F56;
   padding: 100px 50px 40px;
   color: #66BFBF;
@@ -78,6 +84,11 @@ h1 {
 /*SECOND CONTAINER*/
 
 #education {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+.education {
   background-color: #66BFBF;
   color: #343F56;
   padding: 50px 60px 20px;
@@ -105,6 +116,11 @@ h1 {
 /*THIRD CONTAINER*/
 
 #skills {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+.skills {
   background-color: #343F56;
   padding: 50px 50px 40px;
   color: #66BFBF;
@@ -122,16 +138,15 @@ h1 {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
 
 /*FOURTH CONTAINER*/
 
 #experience {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+.experience {
   background-color: #66BFBF;
   color: #343F56;
   padding: 50px 60px 20px;
@@ -152,6 +167,11 @@ h1 {
 /*FIFTH container*/
 
 #contact {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+.contact {
   background-color: #343F56;
   color: #66BFBF;
   padding: 50px 60px 20px;
@@ -180,4 +200,20 @@ h1 {
   font-size: 0.75rem;
   padding-top: 10px;
   font-family: 'Inconsolata', monospace;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .bio {
+    padding: 100px 20px 40px;
+  }
+  .education {
+    padding: 50px 20px 20px;
+  }
+  .experience {
+    padding: 50px 20px 20px;
+  }
 }
