@@ -52,24 +52,32 @@
 
       <div class="ambitions">
         <h3>My Ambitions</h3>
-        <p>- <strong>Integrate</strong> into a happy and enjoyable workspace with a good work / life balance.
+        <p>- <strong>Progress</strong> in a professional digital environment.
           <br>
           - <strong>Utilise</strong> my knowledge and continue to make genuine difference in my work.
           <br>
           - <strong>Develop</strong> my career and practical skills garnering useful and informative experience.
           <br>
-          - <strong>Progress</strong> in a professional digital environment.
+          - <strong>Integrate</strong> into a happy and enjoyable workspace with a good work / life balance.
         </p>
       </div>
 
       <div class="blurb">
         <h3>About Me</h3>
-        <p>I'm 27 and based in Bradford. Love tech, football, music and skiing. Gained a private pilot licence through uni, operating single engine aircraft and I love flying as a hobby.</p>
+        <p>I'm
+          <script>
+            var dob = new Date("09/14/1993");
+            var month_diff = Date.now() - dob.getTime();
+            var age_dt = new Date(month_diff);
+            var year = age_dt.getUTCFullYear();
+            var age = Math.abs(year - 1970);
+            document.write(age);
+          </script>
+          and based in Bradford. Love tech, football, music and skiing. Gained a private pilot licence through uni, operating single engine aircraft and I love flying as a hobby.
+        </p>
       </div>
     </div>
   </div>
-
-
 
   <div id="education">
     <div class="education">
@@ -93,7 +101,6 @@
           2014
         </p>
       </div>
-
 
       <div class="sixth">
         <h3>A-Levels</h3>
@@ -133,7 +140,7 @@
         <div class="column">
           <h3>Languages</h3>
           <p>English | German - Dual citizen</p>
-          <h3>Computer</h3>
+          <h3>Technology</h3>
           <p>- PC & MAC proficient
             <br>
             - Visual Studio Code & Atom
@@ -230,7 +237,7 @@
         <h3>Email</h3>
         <p><strong>steve.j.friedel@hotmail.co.uk</strong></p>
         <h3>Phone</h3>
-        <p><strong>07969427082</strong></p>
+        <p><strong>+44 (0) 7969427082</strong></p>
         <br>
         <p>Want a printable version of my CV? Click on my face below</p>
         <a target="_blank" href="images/Steven Friedel CV.pdf" download>

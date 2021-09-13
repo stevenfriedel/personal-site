@@ -96,22 +96,34 @@ h1 {
 
 .uni {
   width: 95%;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 0 auto;
   text-align: left;
+}
+
+.uni p {
+  margin-bottom: 0;
+  line-height: 1.7;
 }
 
 .sixth {
   width: 95%;
-  margin: 20px auto 20px auto;
+  margin: 0 auto 0 auto;
+}
+
+.sixth p {
+  margin-bottom: 0;
+  line-height: 1.7;
 }
 
 .school {
   width: 95%;
-  margin: 20px auto 20px auto;
+  margin: 0 auto 20px auto;
   text-align: right;
 }
 
-
+.school p {
+  line-height: 1.7;
+}
 
 /*THIRD CONTAINER*/
 
