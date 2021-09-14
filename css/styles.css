@@ -161,12 +161,12 @@ h1 {
 .experience {
   background-color: #66BFBF;
   color: #343F56;
-  padding: 50px 60px 20px;
+  padding: 50px 60px 5px;
 }
 
 .work {
   width: 95%;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 5px auto;
   text-align: left;
 }
 
@@ -175,6 +175,26 @@ h1 {
   text-align: right;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 
 /*FIFTH container*/
 
@@ -226,6 +246,6 @@ h1 {
     padding: 50px 20px 20px;
   }
   .experience {
-    padding: 50px 20px 20px;
+    padding: 50px 20px 5px;
   }
 }
