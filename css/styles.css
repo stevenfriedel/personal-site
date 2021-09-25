@@ -134,7 +134,7 @@ h1 {
 
 .skills {
   background-color: #343F56;
-  padding: 50px 50px 40px;
+  padding: 50px 50px 10px;
   color: #66BFBF;
 }
 
@@ -148,6 +148,10 @@ h1 {
   content: "";
   display: table;
   clear: both;
+}
+
+.cert-img {
+  width: 50px;
 }
 
 
