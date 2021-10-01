@@ -277,4 +277,19 @@ h1 {
   .experience {
     padding: 50px 20px 5px;
   }
+  .leeds {
+    display: none;
+  }
+  .lba {
+    display: none;
+  }
+  .coop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .lba2 {
+    display: none;
+  }
 }
